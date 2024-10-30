@@ -1,5 +1,5 @@
 # EM | Panel
-## Nginx and MySQL Management Panel
+## Nginx and MySQL CLI Management Panel
 
 ###### This project was inspired by the XAMPP control panel, aiming to provide similar ease of use for managing a EMP stack (Nginx, MySQL, PHP) via a Ruby-based interface.
 
