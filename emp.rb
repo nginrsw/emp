@@ -69,6 +69,7 @@ def monitor_nginx
   run_command("clear")
   puts "Monitoring Nginx..."
   sleep 1
+  # need multitail installed on your machine
   run_command("sudo multitail /var/log/nginx/access.log /var/log/nginx/error.log")
 end
 

@@ -18,6 +18,7 @@ This Ruby script provides a simple command-line interface for managing Nginx and
 - Ruby (version 2.5 or higher recommended)
 - `sudo` privileges to manage services
 - Nginx and MySQL installed on your system
+- Also multitail installed on your system
 
 ## Installation
 
