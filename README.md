@@ -32,12 +32,8 @@ This Ruby script provides a simple command-line interface for managing Nginx and
    Follow the instructions for your specific OS to install Nginx and MySQL.
 
 3. **Run the Script**:
-   Make sure the script is executable. You can change the permissions using:
-   ```bash
-   chmod +x nginx_mysql_panel.rb
-   ```
 
-   Then, run the script using:
+   run the script using command:
    ```bash
    ruby nginx_mysql_panel.rb
    ```
