@@ -23,8 +23,8 @@ This Ruby script provides a simple command-line interface for managing Nginx and
 
 1. **Clone the Repository** (or copy the script to your desired location):
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/88saiba/emp.git
+   cd emp
    ```
 
 2. **Ensure Nginx and MySQL are installed**:
