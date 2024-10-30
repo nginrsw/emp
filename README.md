@@ -35,7 +35,7 @@ This Ruby script provides a simple command-line interface for managing Nginx and
 
    run the script using command:
    ```bash
-   ruby nginx_mysql_panel.rb
+   ruby emp.rb
    ```
 
 ## Usage
