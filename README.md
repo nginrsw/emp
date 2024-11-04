@@ -1,9 +1,9 @@
 # EM|Panel
 ## Nginx and MySQL CLI Management Panel
 
-###### This project was inspired by the XAMPP control panel, aiming to provide similar ease of use for managing a EMP stack (Nginx, MySQL, PHP) via a Ruby-based interface.
+###### This project was inspired by the XAMPP control panel, aiming to provide similar ease of use for managing an EMP stack (Nginx, MySQL, PHP) via a Ruby or Python-based interface.
 
-This Ruby script provides a simple command-line interface for managing Nginx and MySQL services. It allows users to start, stop, check the status of services, and monitor logs. The script operates in a loop, presenting a menu until the user decides to exit.
+This CLI management panel provides a simple interface for controlling Nginx and MySQL services, with support for starting, stopping, checking the status, and monitoring logs. The script is available in both Ruby and Python versions, allowing users to choose their preferred language for the same set of functions.
 
 ## Features
 
@@ -15,9 +15,9 @@ This Ruby script provides a simple command-line interface for managing Nginx and
 
 ## Requirements
 
-- Ruby (version 2.5 or higher recommended)
+- **Ruby** (version 2.5 or higher recommended) **or Python** (version 3.6 or higher recommended)
 - `sudo` privileges to manage services
-- Nginx, MySQL and multitail installed on your system
+- Nginx, MySQL, and multitail installed on your system
 
 ## Installation
 
@@ -30,11 +30,18 @@ This Ruby script provides a simple command-line interface for managing Nginx and
 2. **Ensure Nginx and MySQL are installed**:
    Follow the instructions for your specific OS to install Nginx and MySQL.
 
-3. **Run the Script**:
+3. **Choose a Version and Run the Script**:
 
-   run the script using command:
+   ### Ruby Version:
+   Run the Ruby script using the following command:
    ```bash
    ruby emp.rb
+   ```
+
+   ### Python Version:
+   Alternatively, run the Python script with:
+   ```bash
+   python3 emp.py
    ```
 
 ## Usage
@@ -74,13 +81,19 @@ Always press 'q' to back menu
 
 ## Easy Access
 
-For faster access to the management panel, set up an alias in your shell profile (e.g., `.bashrc` or `.zshrc`). Add the following line:
+For faster access to the management panel, set up an alias in your shell profile (e.g., `.bashrc` or `.zshrc`). Add the following line, replacing `/path/to/` with the actual path to your chosen version:
 
+#### if you prefer Ruby
 ```bash
 alias empanel="ruby /path/to/emp.rb"
 ```
 
-Replace `/path/to/` with the actual path to the script. After adding the alias, reload your shell profile:
+#### or, if you prefer Python
+```bash
+alias empanel="python3 /path/to/emp.py"
+```
+
+After adding the alias, reload your shell profile:
 
 ```bash
 source ~/.bashrc   # or source ~/.zshrc
@@ -95,7 +108,7 @@ empanel
 ## Notes
 
 - If you encounter any issues, ensure that you have the necessary permissions to manage the services and that Nginx and MySQL are correctly installed.
-- The script assumes you are running it in a Unix-like environment (Linux/Mac).
+- The scripts assume you are running them in a Unix-like environment (Linux/Mac).
 - If you have a different server or relational database management system (RDBMS), feel free to modify the commands within this program’s script. Think of this as just a skeleton with the base logic in place.
 
 ## License
