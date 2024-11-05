@@ -87,6 +87,9 @@ def main():
         print("2. Turn Off Engine")
         print("3. Check Preps")
         print("4. Check Engine")
+        # If you want to use option number 4,
+        # make sure you have previously used option number 1, or 1 then 2
+        # or option number 4 will look like it is not working as expected
         print("5. View Logs")
         print("0. Bail Out")
         print("-------------")
