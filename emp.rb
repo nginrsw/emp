@@ -87,7 +87,7 @@ def main
     puts "4. Check Engine"
     # If you want to use option number 4,
     # make sure you have previously used option number 1, or 1 then 2
-    # or option number 4 will looks like it's not working properly
+    # or option number 4 will look like it's not working properly
     puts "5. View Logs"
     puts "0. Bail Out"
     puts "-------------"
