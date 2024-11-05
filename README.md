@@ -1,9 +1,13 @@
+Berikut adalah README yang sudah diperbarui untuk menyertakan instruksi penggunaan versi Go dari script ini.
+
+---
+
 # EM|Panel
 ## Nginx and MySQL CLI Management Panel
 
-###### This project was inspired by the XAMPP control panel, aiming to provide similar ease of use for managing an EMP stack (Nginx, MySQL, PHP) via Ruby or Python-based interface.
+###### This project was inspired by the XAMPP control panel, aiming to provide similar ease of use for managing an EMP stack (Nginx, MySQL, PHP) via Ruby, Python, or Go-based interface.
 
-This CLI management panel provides a simple interface for controlling Nginx and MySQL services, with support for starting, stopping, checking the status, and monitoring logs. The script is available in both Ruby and Python versions, allowing users to choose their preferred language for the same set of functions.
+This CLI management panel provides a simple interface for controlling Nginx and MySQL services, with support for starting, stopping, checking the status, and monitoring logs. The script is available in Ruby, Python, and Go versions, allowing users to choose their preferred language for the same set of functions.
 
 ## Features
 
@@ -15,7 +19,7 @@ This CLI management panel provides a simple interface for controlling Nginx and 
 
 ## Requirements
 
-- **Ruby** (version 2.5 or higher recommended) **or Python** (version 3.6 or higher recommended)
+- **Ruby** (version 2.5 or higher recommended), **Python** (version 3.6 or higher recommended), or **Go** (version 1.16 or higher recommended)
 - `sudo` privileges to manage services
 - Nginx, MySQL, and multitail installed on your system
 
@@ -42,6 +46,12 @@ This CLI management panel provides a simple interface for controlling Nginx and 
    Alternatively, run the Python script with:
    ```bash
    python3 emp.py
+   ```
+
+   ### Go Version:
+   Compile and run the Go script with:
+   ```bash
+   go run emp.go
    ```
 
 ## Usage
@@ -83,14 +93,25 @@ Always press 'q' to back menu
 
 For faster access to the management panel, set up an alias in your shell profile (e.g., `.bashrc` or `.zshrc`). Add the following line, replacing `/path/to/` with the actual path to your chosen version:
 
-#### if you prefer Ruby
+#### Ruby Version
 ```bash
 alias empanel="ruby /path/to/emp.rb"
 ```
 
-#### or, if you prefer Python
+#### Python Version
 ```bash
 alias empanel="python3 /path/to/emp.py"
+```
+
+#### Go Version
+First, build the Go program to create an executable:
+```bash
+go build -o empanel /path/to/emp.go
+```
+
+Then set up the alias:
+```bash
+alias empanel="/path/to/empanel"
 ```
 
 After adding the alias, reload your shell profile:
