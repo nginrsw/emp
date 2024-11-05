@@ -8,7 +8,7 @@ import (
 )
 
 func runCommand(command string) {
-	// Menjalankan perintah di terminal
+	// Execute commands in terminal
 	cmd := exec.Command("bash", "-c", command)
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
@@ -46,7 +46,7 @@ func stopServices() {
 }
 
 func sitesEnableEnginx() {
-		clearScreen() // Clear screen setiap kali masuk ke menu
+		clearScreen() // Clear screen every time you enter the menu
 		fmt.Println("Checking Sites-Enable Config...")
 		fmt.Println("---------------------------------")
 		time.Sleep(500 * time.Millisecond)
