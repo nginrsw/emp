@@ -85,6 +85,9 @@ def main
     puts "2. Turn Off Engine"
     puts "3. Check Preps"
     puts "4. Check Engine"
+    # If you want to use menu number 4,
+    # make sure you have previously used menu number 1, or one then 2
+    # or menu number 4 will look like it is not working as expected
     puts "5. View Logs"
     puts "0. Bail Out"
     puts "-------------"

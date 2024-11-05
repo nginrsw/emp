@@ -103,6 +103,9 @@ func main() {
 		fmt.Println("2. Turn Off Engine")
 		fmt.Println("3. Check Preps")
 		fmt.Println("4. Check Engine")
+		// If you want to use menu number 4,
+		// make sure you have previously used menu number 1, or one then 2
+		// or menu number 4 will look like it is not working as expected
 		fmt.Println("5. View Logs")
 		fmt.Println("0. Bail Out")
 		fmt.Println("-------------")
