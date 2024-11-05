@@ -105,7 +105,7 @@ func main() {
 		fmt.Println("4. Check Engine")
 		// If you want to use option number 4,
 		// make sure you have previously used option number 1, or 1 then 2
-		// or option number 4 will look like it is not working as expected
+		// or option number 4 will looks like it's not working properly
 		fmt.Println("5. View Logs")
 		fmt.Println("0. Bail Out")
 		fmt.Println("-------------")
