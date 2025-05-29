@@ -23,7 +23,7 @@ This CLI management panel provides a simple interface for controlling Nginx and 
 
 1. **Clone the Repository** (or copy the script to your desired location):
    ```bash
-   git clone https://github.com/88saiba/emp.git
+   git clone https://github.com/nginrsw/emp.git
    cd emp
    ```
 
