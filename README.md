@@ -1,7 +1,7 @@
 # EM|Panel
 ## Nginx and MySQL CLI Management Panel
 
-###### This project was inspired by the XAMPP control panel, aiming to provide similar ease of use for managing an EM stack (Nginx, MySQL) via an interface built in Ruby, Python, or Go. But why writing this script with Go, when it doesn’t even require an external server like Nginx? The answer: just for sarcasm.
+###### This script-project was inspired by the XAMPP control panel, aiming to provide similar ease of use for managing an EM stack (Nginx, MySQL) via an interface built in Ruby, Python, or Go. But why writing this script with Go, when it doesn’t even require an external server like Nginx? The answer: just for sarcasm.
 
 This CLI management panel provides a simple interface for controlling Nginx and MySQL services, with support for starting, stopping, checking the status, and monitoring logs. The script is available in Ruby, Python, and Go versions, allowing users to choose their preferred language for the same set of functions.
 
