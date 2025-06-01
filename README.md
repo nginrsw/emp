@@ -125,7 +125,7 @@ empanel
 ## Notes
 
 - If you encounter any issues, ensure that you have the necessary permissions to manage the services and that Nginx and MySQL are correctly installed.
-- The scripts assume you are running them in a Unix-like environment (Linux/Mac).
+- The scripts assume you are running them in a Linux & Unix-like environment BSD/Mac.
 - If you have a different server or relational database management system (RDBMS), feel free to modify the commands within this program’s script. Think of this as just a skeleton with the base logic in place.
 
 ## License
