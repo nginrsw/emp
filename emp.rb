@@ -58,7 +58,9 @@ def check_services
   puts "Checking Nginx and MySQL..."
   sleep 1.7
   puts "---------------------------------"
-  # Accessing systemd services in Ruby is somewhat different from other languages: it requires calling the full service name. For example, instead of calling just nginx, you need to include the .service suffix, so it becomes nginx.service
+  # Accessing systemd services in Ruby is somewhat different from other languages: 
+  # it requires calling the full service name. For example, instead of calling just nginx,
+  # you need to include the .service suffix, so it becomes nginx.service
   run_command("sudo systemctl status nginx.service")
   sleep 0.8
   puts "---------------------------------"
